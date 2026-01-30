@@ -26,8 +26,8 @@ noBtn.addEventListener("click", () => {
 yesBtn.addEventListener("click", () => {
   document.body.innerHTML = `
     <div style="display:flex;flex-direction:column;justify-content:center;align-items:center;height:100vh;background:#ff9a9e;">
-      <h1 style="color:white;font-size:3rem;">YAY 💖 I love you!</h1>
-      <p style="color:white;font-size:1.5rem;">So happy you said YES!</p>
+      <h1 style="color:white;font-size:3rem;">YUHUUUUUU I love you Babyyyyy!</h1>
+      <p style="color:white;font-size:1.5rem;">Wirklich danke, dass ich dich habeeee ich bin wirklich so frohhh. Du bist das allerbeste was mir je passiert ist ich freue mich schon voll auf den 14. Heheeeeee.</p>
     </div>
   `;
 });
