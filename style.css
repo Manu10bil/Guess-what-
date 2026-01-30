@@ -1,3 +1,4 @@
+/* Page background and font */
 body {
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   font-family: Arial, sans-serif;
@@ -8,6 +9,7 @@ body {
   margin: 0;
 }
 
+/* The white card container */
 .card {
   background: white;
   padding: 40px;
@@ -16,10 +18,17 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
+/* Headings and text */
 h1 {
   margin-bottom: 20px;
 }
 
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Buttons styling */
 button {
   padding: 12px 25px;
   margin: 10px;
@@ -27,16 +36,18 @@ button {
   border-radius: 30px;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; /* smooth growth for YES button */
 }
 
+/* YES button colors */
 #yes {
   background: #ff4d6d;
   color: white;
 }
 
+/* NO button colors */
 #no {
   background: #ddd;
   color: black;
-  position: relative;
+  position: relative; /* stays in place */
 }
