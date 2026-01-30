@@ -3,12 +3,12 @@ const yesBtn = document.getElementById("yes");
 
 // Random messages for the No button
 const noMessages = [
-  "Oops… try again!",
-  "Hmm… maybe not 😏",
-  "Not yet!",
-  "Try clicking YES 💕",
-  "Hehe, wrong button!",
-  "Almost… click YES!"
+  "Bittiiiiiii",
+  "Du willst es doch auchhhhh",
+  "komm schonnnnn",
+  "Du gemeiniiiii",
+  "Pipifrauuuu",
+  "Bitteeeeeee"
 ];
 
 // NO button behavior
@@ -19,7 +19,7 @@ noBtn.addEventListener("click", () => {
 
   // Make YES button grow slightly
   let currentSize = parseInt(window.getComputedStyle(yesBtn).fontSize);
-  yesBtn.style.fontSize = (currentSize + 3) + "px";
+  yesBtn.style.fontSize = (currentSize + 6) + "px";
 });
 
 // YES button behavior
