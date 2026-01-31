@@ -30,9 +30,9 @@ yesBtn.addEventListener("click", () => {
       <p style="color:white;font-size:1.5rem;">Wirklich danke, dass ich dich habeeee ich bin wirklich so frohhh. Du bist das allerbeste was mir je passiert ist ich freue mich schon voll auf den 14. Heheeeeee.</p>
 
       <img src="https://github.com/Manu10bil/Guess-what-/blob/main/Image.jpg" class="corner top-left">
-      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image (1).jpg" class="corner top-right">
-      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image (2).jpg" class="corner bottom-left">
-      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image (3).jpg" class="corner bottom-right">
+      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image20%(1).jpg" class="corner top-right">
+      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image20%(2).jpg" class="corner bottom-left">
+      <img src="https://github.com/Manu10bil/Guess-what-/blob/main/image20%(3).jpg" class="corner bottom-right">
     </div>
   `;
 });
