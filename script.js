@@ -29,10 +29,10 @@ yesBtn.addEventListener("click", () => {
       <h1 style="color:white;font-size:3rem;">YUHUUUUUU I love you Babyyyyy!</h1>
       <p style="color:white;font-size:1.5rem;">Wirklich danke, dass ich dich habeeee ich bin wirklich so frohhh. Du bist das allerbeste was mir je passiert ist ich freue mich schon voll auf den 14. Heheeeeee.</p>
 
-      <img src="Image.jpg" class="corner top-left">
-      <img src="image20%(1).jpg" class="corner top-right">
-      <img src="image20%(2).jpg" class="corner bottom-left">
-      <img src="image20%(3).jpg" class="corner bottom-right">
+<img src="https://raw.githubusercontent.com/Manu10bil/Guess-what-/main/corner1.png" class="corner top-left">
+      <img src="https://raw.githubusercontent.com/Manu10bil/Guess-what-/main/corner2.png" class="corner top-right">
+      <img src="https://raw.githubusercontent.com/Manu10bil/Guess-what-/main/corner3.png" class="corner bottom-left">
+      <img src="https://raw.githubusercontent.com/Manu10bil/Guess-what-/main/corner4.png" class="corner bottom-right">
     </div>
   `;
 });
