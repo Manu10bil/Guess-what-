@@ -57,7 +57,7 @@ button {
 /* -------------------- Corner Images -------------------- */
 .corner {
   position: absolute;   /* anchors to page */
-  width: 120px;         /* adjust width as needed */
+  width: 200px;         /* adjust width as needed */
   height: auto;         /* preserves original aspect ratio */
   object-fit: contain;  /* ensures no stretching */
   animation: floatCorners 3s ease-in-out infinite alternate; /* gentle float */
