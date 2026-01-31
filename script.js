@@ -50,7 +50,7 @@ yesBtn.addEventListener("click", () => {
 <img src="image.jpg" class="corner top-left">
 <img src="Image (2).jpg" class="corner top-right">
 <img src="corner3.png" class="corner bottom-left">
-<img src="corner4.png" class="corner bottom-right">
+<img src="Image (1).jpg" class="corner bottom-right">
     </div>
   `;
 });
