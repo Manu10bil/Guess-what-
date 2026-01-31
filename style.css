@@ -65,10 +65,10 @@ button {
 }
 
 /* Position each corner */
-.top-left { top: 0; left: 0; }
-.top-right { top: 0; right: 0; }
-.bottom-left { bottom: 0; left: 0; }
-.bottom-right { bottom: 0; right: 0; }
+.top-left { top: 200px; left: 200px; }
+.top-right { top: 200px; right: 200px; }
+.bottom-left { bottom: 200px; left: 200px; }
+.bottom-right { bottom: 200px; right: 200px; }
 
 /* -------------------- Floating animation -------------------- */
 @keyframes floatCorners {
