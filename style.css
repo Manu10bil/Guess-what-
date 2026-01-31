@@ -1,4 +1,4 @@
-/* Page background and font */
+/* -------------------- Page background and font -------------------- */
 body {
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   font-family: Arial, sans-serif;
@@ -7,10 +7,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
-  overflow: hidden; /* prevent scroll from floating images */
+  overflow: hidden; /* prevents scroll from corner images */
 }
 
-/* The white card container */
+/* -------------------- Card container -------------------- */
 .card {
   background: white;
   padding: 40px;
@@ -19,7 +19,7 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* Headings and text */
+/* -------------------- Headings and text -------------------- */
 h1 {
   margin-bottom: 20px;
 }
@@ -27,9 +27,10 @@ h1 {
 p {
   font-size: 18px;
   margin-bottom: 30px;
+  max-width: 800px; /* keeps long text readable */
 }
 
-/* Buttons styling */
+/* -------------------- Buttons styling -------------------- */
 button {
   padding: 12px 25px;
   margin: 10px;
@@ -53,14 +54,14 @@ button {
   position: relative; /* stays in place */
 }
 
-/* Final page corner images */
+/* -------------------- Corner Images -------------------- */
 .corner {
-  position: absolute;       /* position relative to final page */
-  width: 120px;             /* change width as needed */
-  height: auto;             /* keep original aspect ratio */
-  object-fit: contain;      /* prevents stretching */
-  animation: floatCorners 3s ease-in-out infinite alternate; /* optional floating */
-  z-index: 10;              /* ensures images appear above background */
+  position: absolute;   /* anchors to page */
+  width: 120px;         /* adjust width as needed */
+  height: auto;         /* preserves original aspect ratio */
+  object-fit: contain;  /* ensures no stretching */
+  animation: floatCorners 3s ease-in-out infinite alternate; /* gentle float */
+  z-index: 10;          /* above background */
 }
 
 /* Position each corner */
@@ -69,17 +70,17 @@ button {
 .bottom-left { bottom: 0; left: 0; }
 .bottom-right { bottom: 0; right: 0; }
 
-/* Floating animation */
+/* -------------------- Floating animation -------------------- */
 @keyframes floatCorners {
   0% { transform: translateY(0); }
   50% { transform: translateY(10px); }
   100% { transform: translateY(0); }
 }
 
-/* Optional: responsive sizing for small screens */
+/* -------------------- Responsive for small screens -------------------- */
 @media (max-width: 600px) {
   .corner {
-    width: 80px;  /* smaller on mobile */
+    width: 80px; /* smaller on mobile */
   }
 
   button {
@@ -90,5 +91,8 @@ button {
   p {
     font-size: 16px;
   }
-}
 
+  .card {
+    padding: 30px;
+  }
+}
