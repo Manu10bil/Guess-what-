@@ -7,6 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0;
+  overflow: hidden; /* prevent scroll from floating images */
 }
 
 /* The white card container */
@@ -51,3 +52,43 @@ button {
   color: black;
   position: relative; /* stays in place */
 }
+
+/* Final page corner images */
+.corner {
+  position: absolute;       /* position relative to final page */
+  width: 120px;             /* change width as needed */
+  height: auto;             /* keep original aspect ratio */
+  object-fit: contain;      /* prevents stretching */
+  animation: floatCorners 3s ease-in-out infinite alternate; /* optional floating */
+  z-index: 10;              /* ensures images appear above background */
+}
+
+/* Position each corner */
+.top-left { top: 0; left: 0; }
+.top-right { top: 0; right: 0; }
+.bottom-left { bottom: 0; left: 0; }
+.bottom-right { bottom: 0; right: 0; }
+
+/* Floating animation */
+@keyframes floatCorners {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Optional: responsive sizing for small screens */
+@media (max-width: 600px) {
+  .corner {
+    width: 80px;  /* smaller on mobile */
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
